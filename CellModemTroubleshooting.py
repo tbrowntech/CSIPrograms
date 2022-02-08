@@ -58,6 +58,7 @@ def q8b():
         print(invalid)
         print("")
         q8b()
+
 #function asking if modem has cellular service
 def q8a():
     service = input("Does your modem already have cellular service? (y/n) ")
@@ -71,6 +72,7 @@ def q8a():
         print(invalid)
         print("")
         q8a()
+
 #function asking aboutt color of light
 def q7b():
     color = input("What is the color of the light?\n"
@@ -88,6 +90,7 @@ def q7b():
         print(invalid)
         print("")
         q7b()
+
 #function asking about power light
 def q7a():
     light = input("Is the power light as seen below on your datalogger lit? (y/n) ")
@@ -103,6 +106,7 @@ def q7a():
         print(invalid)
         print("")
         q7a()
+
 #function asking about power source
 def q6():
     power = input("How is your datalogger connected to power?\n"
